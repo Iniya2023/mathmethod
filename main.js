@@ -49,7 +49,31 @@ console.log(String.fromCharCode(78));
 
 
 
+console.log("Date Method");
+console.log("Date GET Method");
 
+let date = new Date("2025-6-20");  
+
+console.log(date);
+console.log(date.getTime());
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+console.log(date.getMilliseconds());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+console.log(date.toDateString());
+console.log(date.getDay());
+
+console.log("Date SET Method");
+
+
+date.setFullYear(2023);
+console.log(date.getFullYear());
+console.log(date.getDay());
 
 
 
